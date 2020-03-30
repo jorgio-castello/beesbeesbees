@@ -1,6 +1,8 @@
-var ForagerBee = function(age, color, job, canFly = true) {
-  Bee.call(this, age || 10, color, job || 'find pollen');
-  this.canFly = canFly;
+var ForagerBee = function() {
+  Bee.call(this);
+  this.age = 10;
+  this.canFly = true;
+  this.job = 'find pollen';
   this.treasureChest = [];
 };
 

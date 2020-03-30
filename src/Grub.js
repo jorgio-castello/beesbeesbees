@@ -1,6 +1,6 @@
-var Grub = function(age, color) {
-  this.age = age || 0;
-  this.color = color || 'pink';
+var Grub = function() {
+  this.age = 0;
+  this.color = 'pink';
   this.food = 'jelly';
 };
 

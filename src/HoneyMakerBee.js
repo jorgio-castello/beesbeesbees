@@ -1,5 +1,7 @@
 var HoneyMakerBee = function() {
-  Bee.call(this, 10, undefined, 'make honey');
+  Bee.call(this);
+  this.age = 10;
+  this.job = 'make honey';
   this.honeyPot = 0;
 };
 

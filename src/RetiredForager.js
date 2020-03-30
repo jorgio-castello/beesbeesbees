@@ -1,5 +1,9 @@
 var RetiredForagerBee = function() {
-  ForagerBee.call(this, 40, 'grey','gamble', false)
+  ForagerBee.call(this);
+  this.age = 40;
+  this.job = 'gamble';
+  this.canFly = false;
+  this.color = 'grey';
 };
 
 RetiredForagerBee.prototype = Object.create(ForagerBee.prototype);
